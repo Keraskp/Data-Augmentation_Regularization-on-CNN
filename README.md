@@ -14,6 +14,17 @@ A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which 
 
 ![convnet](./images/convnet.jpeg)
 
+### Model Summary :
+
+![](./images/model_summary.png)
+
 ### Accuracy with Data Augmentation :
 
-![](./images/accuracy.png)
+![](./images/accuracy_dataaug.png)
+
+### Data Augmentation :
+
+Synthetically generating similar image data to generalize the model.
+### Accuracy with Data Augmentation :
+
+![](./images/accuracy_dataaug.png)
