@@ -12,15 +12,26 @@ The dataset is divided into five training batches and one test batch, each with 
 ### Convolutional Neural Network :
 A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance (learnable weights and biases) to various aspects/objects in the image and be able to differentiate one from the other. 
 
+
 ![convnet](./images/convnet.jpeg)
+
+A CNN architecture consists of 3 types of layers :
+
+- **Convolution Layer** : It is responsible for the extraction of the different features from the input images. The convolution mathematical operation is done between the input image and a filter of a specific size MxM in this layer.
+
+- **Pooling Layer** : The Pooling layer is responsible for the reduction of size of the Colvolved feature.
+
+
+- **Fully connected Layer** : It takes the output of the convolution process and predicts the image’s class based on the features retrieved earlier.
+
 
 ### Model Summary :
 
 ![](./images/model_summary.png)
 
-### Accuracy with Data Augmentation :
+### Accuracy without Data Augmentation :
 
-![](./images/accuracy_dataaug.png)
+![](./images/accuracy.png)
 
 ### Data Augmentation :
 
